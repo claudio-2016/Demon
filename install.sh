@@ -19,4 +19,4 @@ clear
 cp -R ~/Git/Demon/.config  ~/
 echo 'exec openbox-session' > ~/.xinitrc
 clear
-echo 'El proceso ha finalizado, si se encuentra dentro de VirtualBox, por favor corra el script vBox.sh como root. Para tener soperte completo dentro de la virtual machine. Recuerde hacer ejecutable el script con (chmod +x vBox.sh)
+echo 'El proceso ha finalizado, si se encuentra dentro de VirtualBox, por favor corra el script vBox.sh como root. Para tener soperte completo dentro de la virtual machine. Recuerde hacer ejecutable el script con (chmod +x vBox.sh)'
