@@ -10,12 +10,15 @@ sudo apt -y install fonts-dejavu-extra fonts-dejavu xfce4-terminal
 clear
 sudo apt -y install thunar iceweasel iceweasel-l10n-es-ar alsa-utils 
 clear
-sudo add-apt-repository ppa:numix/ppa
+sudo apt install -y lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme
 clear
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt -y install apt-transport-https
+clear
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update
 clear
-sudo apt install -y lxappearance lxappearance-obconf numix-*
-clear
+sudo apt -y install sublime-text
 cp -R ~/Git/Demon/.config  ~/
 echo 'exec openbox-session' > ~/.xinitrc
 clear
