@@ -4,7 +4,7 @@ sudo apt install -y ufw && ufw enable
 clear
 sudo apt install -y xorg
 clear
-sudo apt install -y openbox obconf rofi 
+sudo apt install -y openbox obconf rofi tint2
 clear
 sudo apt -y install fonts-dejavu-extra fonts-dejavu xfce4-terminal 
 clear
