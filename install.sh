@@ -12,6 +12,8 @@ sudo apt -y install thunar iceweasel iceweasel-l10n-es-ar alsa-utils
 clear
 sudo apt install -y lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme
 clear
+sudo apt install -y lightdm lightdm-gtk-greeter
+clear
 cp -R .config  ~/
 echo 'exec openbox-session' > ~/.xinitrc
 clear
