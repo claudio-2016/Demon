@@ -1,7 +1,8 @@
 #!/bin/bash
 
 ## Instalacion de paquetes basicos
-sudo apt install ufw && ufw enable
+sudo apt install ufw 
+sudo ufw enable
 clear
 sudo apt install xorg
 clear
