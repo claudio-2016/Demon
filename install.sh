@@ -1,19 +1,19 @@
 #!/bin/bash
 
 ## Instalacion de paquetes basicos
-sudo apt install -y ufw && ufw enable
+sudo apt install ufw && ufw enable
 clear
-sudo apt install -y xorg
+sudo apt install xorg
 clear
-sudo apt install -y openbox obconf rofi tint2
+sudo apt install openbox obconf rofi tint2
 clear
-sudo apt -y install fonts-dejavu-extra fonts-dejavu xfce4-terminal htop
+sudo apt install fonts-dejavu-extra fonts-dejavu xfce4-terminal htop
 clear
-sudo apt -y install thunar iceweasel iceweasel-l10n-es-ar alsa-utils 
+sudo apt install thunar iceweasel iceweasel-l10n-es-ar alsa-utils 
 clear
-sudo apt install -y lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager-gnome
+sudo apt install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager-gnome
 clear
-sudo apt install -y mate-power-manager volumeicon-alsa
+sudo apt install mate-power-manager volumeicon-alsa
 clear
 
 
