@@ -36,4 +36,9 @@ sudo cp /etc/network/interfaces /etc/network/interfaces.original
 sudo sed -i '10,12d' /etc/network/interfaces
 
 
+## Creacion de alias.
+echo "alias iniciar='startx'" >> ~/.bashrc
+echo "alias reiniciar='sudo reboot'" >> ~/.bashrc
+echo "alias apagar='sudo poweroff'" >> ~/.bashrc
+
 echo -e 'El proceso ha finalizado, si se encuentra dentro de VirtualBox, por favor \ncorra el script vBox.sh como usuario root. Para tener soperte completo dentro de la virtual machine. \nRecuerde hacer ejecutable el script con (chmod +x vBox.sh)'
