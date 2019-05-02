@@ -14,7 +14,7 @@ sudo apt -y install thunar iceweasel iceweasel-l10n-es-ar alsa-utils net-tools
 clear
 sudo apt -y install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager-gnome
 clear
-sudo apt -y install mate-power-manager volumeicon-alsa mpv nmap pluma
+sudo apt -y install mate-power-manager volumeicon-alsa mpv nmap
 clear
 
 
