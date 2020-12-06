@@ -4,7 +4,9 @@
 sudo apt -y install ufw 
 sudo ufw enable
 clear
-sudo apt -y install xorg
+sudo apt -y install xorg-server-source
+clear
+sudo apt -y install twm xinit
 clear
 sudo apt -y install openbox obconf rofi tint2
 clear
