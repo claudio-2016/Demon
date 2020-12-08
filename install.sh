@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## Instalacion de paquetes basicos
-sudo apt -y install ufw 
-sudo ufw enable
+#sudo apt -y install ufw 
+#sudo ufw enable
 clear
 sudo apt -y install xorg-server-source
 clear
@@ -12,12 +12,12 @@ sudo apt -y install openbox obconf rofi tint2
 clear
 sudo apt -y install fonts-dejavu-extra fonts-dejavu xfce4-terminal htop
 clear
-sudo apt -y install thunar iceweasel iceweasel-l10n-es-ar alsa-utils net-tools
+sudo apt -y install thunar firefox-esr firefox-esr-l10n-es-ar alsa-utils net-tools
 clear
-sudo apt -y install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager-gnome
+sudo apt -y install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager
 clear
-sudo apt -y install mate-power-manager volumeicon-alsa mpv nmap
-clear
+#sudo apt -y install mate-power-manager volumeicon-alsa mpv nmap
+#clear
 
 
 ## Configuracion basica para OpenBox
@@ -39,8 +39,8 @@ sudo sed -i '10,12d' /etc/network/interfaces
 
 
 ## Creacion de alias.
-echo "alias iniciar='startx'" >> ~/.bashrc
-echo "alias reiniciar='sudo reboot'" >> ~/.bashrc
-echo "alias apagar='sudo poweroff'" >> ~/.bashrc
+#echo "alias iniciar='startx'" >> ~/.bashrc
+#echo "alias reiniciar='sudo reboot'" >> ~/.bashrc
+#echo "alias apagar='sudo poweroff'" >> ~/.bashrc
 
 echo -e 'El proceso ha finalizado, ahora debe reiniciar su pc con el comando 'sudo reboot'.\n Si se encuentra dentro de VirtualBox, por favor \ncorra el script vBox.sh como usuario root. Para tener soperte completo dentro de la virtual machine. \nRecuerde hacer ejecutable el script con (chmod +x vBox.sh)'
