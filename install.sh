@@ -14,7 +14,7 @@ sudo apt -y install fonts-dejavu-extra fonts-dejavu xfce4-terminal htop
 clear
 sudo apt -y install thunar firefox-esr firefox-esr-l10n-es-ar alsa-utils net-tools
 clear
-sudo apt -y install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager
+sudo apt -y install lxappearance lxappearance-obconf numix-gtk-theme numix-icon-theme network-manager nitrogen
 clear
 #sudo apt -y install mate-power-manager volumeicon-alsa mpv nmap
 #clear

@@ -17,6 +17,6 @@
 #xfce-mcs-manager &
 
 tint2 &
-volumeicon &
-mate-power-manager &
-
+#volumeicon &
+#mate-power-manager &
+nitrogen --restore &
